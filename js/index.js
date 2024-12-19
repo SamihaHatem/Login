@@ -22,7 +22,7 @@ function changeUsername() {
     if (username_exist_err) username_exist_err.innerHTML = ''
     if (login_err) login_err.innerHTML = '';
     if (username.value && username.value.length >= 3) {
-        username_err.innerHTML = ``;
+        if (username_err) username_err.innerHTML = ``;
     }
 }
 
