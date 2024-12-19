@@ -1,0 +1,51 @@
+.bg-img {
+    background-image: url(../images/img2.jpg);
+    background-size: cover;
+}
+
+.aref-ruqaa-regular {
+    font-family: "Aref Ruqaa", serif;
+}
+
+.aref-ruqaa-bold {
+    font-family: "Aref Ruqaa", serif;
+    text-shadow: 3px 3px #bbbbbb;
+}
+
+.fs-small {
+    font-size: small;
+}
+
+.v-hidden {
+    visibility: hidden;
+}
+
+.bg-home {
+    background-image: url(../images/home-bg-3.jpg);
+}
+
+.bg-layout {
+    background-color: rgba(0, 0, 0, 0.59);
+}
+
+ul {
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.bg-body-tertiary {
+    background-color: rgb(46 35 25) !important;
+}
+
+nav {
+    box-shadow: 1px 1px 4px 2px #181818;
+}
+
+.wel{
+    background: #00000096;
+    border-radius: 11px;
+    font-family: 'Aref Ruqaa', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
