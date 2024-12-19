@@ -102,6 +102,7 @@ function login() {
         let userFound = user_exist[0]
         if (userFound.password === password.value) {
             liveToastBtn.click();
+            localStorage.setItem('current_user', JSON.stringify(userFound))
             setTimeout(() => {
                 window.location.href = './home.html';
             }, 500);
